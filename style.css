@@ -3,6 +3,10 @@
     background-image: url(images/shapes/Frame\ 56.jpg);
     margin-bottom: 20px;
 }
+.section1-div i{
+   font-size: 20px;
+
+}
 .section1-div{
 width: 50%;
 padding-left: 10%;
@@ -12,11 +16,6 @@ padding-left: 10%;
     font-size: 35px;
 }
 
-}
-.section1 span{
-   
-    color: rgb(245, 177, 177);
-}
 .order-color{
     text-decoration: none;
     font-weight: 700;
@@ -29,10 +28,24 @@ body{
     margin: 0;
 }
 .section2{
+   
+
     background-image: url(images/shapes/Frame\ 59.jpg);
     display: flex;
 }
 .section2 p{
     font-size: 18px;
     padding-right: 5%;
+}
+#third-section-first-div{
+    text-align: center;
+}
+#id-h1 span{
+    color:orangered;
+}
+.section1-div h1{
+font-size: 28px;
+}
+.section1-div span{
+    color: rgb(119, 172, 13);
 }
