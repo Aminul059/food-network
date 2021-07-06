@@ -1,51 +1,117 @@
-.section1{
-    display: flex;
-    background-image: url(images/shapes/Frame\ 56.jpg);
-    margin-bottom: 20px;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-.section1-div i{
-   font-size: 20px;
+h1 {
+  font-size: 50px;
+}
+.orange-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10px;
+}
+.h1class{
+  border-bottom:10px solid palegreen;
+}
+.image {
+  width: 510px;
+  height: 510px;
+
+  
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(Salmon, Tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700px;
+  border-radius: 5px;
+}
+.middle-banner {
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-position: 0%;
+}
+p {
+  font-size: 35px;
+}
+.third-section-div1 {
+  text-align: center;
+  padding: 0 10%;
+}
+.third-section-div1 h1 {
+}
+.third-section-div1 p {
+  font-size: 28px;
+}
+.third-section-div2 {
+  display: flex;
+  margin: 0px 0px 20px 0px;
+  padding-left: 3%;
+}
+.same-class {
+  padding: 10px;
+  margin: 30px;
+  border: 10px solid white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px skyblue;
+}
+.img-class {
+  width: 365px;
+  padding: 5px;
+}
+.same-class p {
+  font-size: 20px;
+}
+.last-div {
+  display: flex;
+}
+.amne-aki-rki {
+  box-shadow: 0px 3px 2px gray;
+  align-items: center;
+  padding: 1%;
+  justify-content: space-between;
+  margin-left: 280px;
+}
+.amne-aki-rki p {
+  font-size: 16px;
+}
+.amne-aki-rki h1 {
+  font-size: 25px;
+}
+
+.section3 {
+  margin-bottom: 100px;
+}
+.food-network {
+  text-align: center;
+  background-image: linear-gradient(rgb(12, 3, 3), rgb(26, 6, 6));
+  margin: 0%;
+}
+.food-network h3 {
+  font-size: 25px;
+  color: aliceblue;
+}
+.food-network p {
+  font-size: 20px;
+}
+.food-network p {
+  color: aliceblue;
+}
+#aminul59 p{
+  color: aliceblue;
+  font-size: 28px;
 
 }
-.section1-div{
-width: 50%;
-padding-left: 10%;
-
+#green {
+  color: greenyellow;
 }
-#id-h1{
-    font-size: 35px;
-}
-
-.order-color{
-    text-decoration: none;
-    font-weight: 700;
- color: white;
-    padding: 10px 40px;
-    border-radius: 5px;
-    background-image: linear-gradient(rgb(182, 197, 127),tomato);
-}
-body{
-    margin: 0;
-}
-.section2{
-   
-
-    background-image: url(images/shapes/Frame\ 59.jpg);
-    display: flex;
-}
-.section2 p{
-    font-size: 18px;
-    padding-right: 5%;
-}
-#third-section-first-div{
-    text-align: center;
-}
-#id-h1 span{
-    color:orangered;
-}
-.section1-div h1{
-font-size: 28px;
-}
-.section1-div span{
-    color: rgb(119, 172, 13);
+.food-network span{
+  color: orangered;
 }
